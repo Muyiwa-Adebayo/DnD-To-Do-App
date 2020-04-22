@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Muli",sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+svg{
+    width:20px;
+}
+
+/* img{
+    position: relative;
+    display: flex;
+    margin-top: -70px;
+    margin-left: 70px;
+}
+
+img .current{
+    position: relative;
+} */
+
+h1{
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+}
+
+.h1-Bold{
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: -0.3px;
+}
+
+p{
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+}
+
+.text-primary{
+    color: white;
+}
+.text-black{
+    color: #333;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #333;
+}
+
+main{
+    background: #0F7DE2;
+    height: 50vh;
+    padding: 35px 27.5px;
+}
+
+.btn-container{
+    margin: 27px 21px 0px 0px;
+}
+
+.btn{
+    display: flex;
+    margin: 20px 0;
+    padding: 9.5px 24px;
+    height: 43px;
+}
+
+.btn-primary{
+    background: white;
+    border-radius: 30px;
+}
+
+.btn-primary:hover{
+    border: white 1px solid;
+    background: none;
+    border-radius: 30px;
+}
+
+.btn-secondary{
+    border: white 1px solid;
+    border-radius: 30px;
+}
+
+.f14{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+}
+
+.tcenter{
+    padding-left: 50px;
+    /* justify-items: center; */
+}
+
+ul{
+    display: inline-flex;
+    margin-top: 200px;
+}
