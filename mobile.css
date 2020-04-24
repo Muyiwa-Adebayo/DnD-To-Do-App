@@ -87,7 +87,6 @@ header{
 
 main{
     background: #0F7DE2;
-    height: 50vh;
     padding: 35px 27.5px;
 }
 
@@ -116,6 +115,12 @@ main{
 
 .btn-secondary{
     border: white 1px solid;
+    border-radius: 30px;
+}
+
+.btn-secondary:hover {
+    background: white;
+    color: #333;
     border-radius: 30px;
 }
 
